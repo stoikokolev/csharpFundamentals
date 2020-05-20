@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentInformation", "StudentInformation\StudentInformation.csproj", "{B6220831-17B7-44B6-9160-21D5FC429F06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic Syntex, Conditional Statements and Loops", "Basic Syntex, Conditional Statements and Loops", "{511FA2BA-EADB-4343-91D0-85E6BDAC1034}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6220831-17B7-44B6-9160-21D5FC429F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6220831-17B7-44B6-9160-21D5FC429F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6220831-17B7-44B6-9160-21D5FC429F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6220831-17B7-44B6-9160-21D5FC429F06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6220831-17B7-44B6-9160-21D5FC429F06} = {511FA2BA-EADB-4343-91D0-85E6BDAC1034}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0164A842-2FF3-4B82-8E28-27FC10B1852E}
+	EndGlobalSection
+EndGlobal
