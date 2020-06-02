@@ -1,0 +1,24 @@
+﻿2. Train
+You will be given a count of wagons in a train n. On the next n lines you will receive how many people are going to get on each wagon. At the end print the whole train and after that, on the next line, the sum of the people in the train. 
+Examples
+Input
+Output
+3
+13
+24
+8
+13 24 8
+45
+6
+3
+52
+71
+13
+65
+4
+3 52 71 13 65 4
+208
+1
+100
+100
+100
