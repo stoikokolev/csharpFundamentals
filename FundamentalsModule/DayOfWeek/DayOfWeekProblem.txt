@@ -1,0 +1,11 @@
+﻿1. Day of Week
+Enter a day number [1…7] and print the name (in English) or "Invalid day!"
+Examples
+Input
+Output
+1
+Monday
+2
+Wednesday
+10
+Invalid day!
