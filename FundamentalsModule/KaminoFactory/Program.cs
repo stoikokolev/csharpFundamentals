@@ -9,40 +9,76 @@ namespace KaminoFactory
 
         static void Main(string[] args)
         {
+
             int n = int.Parse(Console.ReadLine());
-            int[] arr = Console.ReadLine()
-                .Split("!", StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
+            string input = Console.ReadLine();
+            int bestLenght = -1;
+            int bestStartIndex = 0;
+            int count = 0;
             int bestCount = 0;
-            
-            for (int i = 0; i < arr.Length; i++)
+            int[] bestArr = new int[n];
+            int bestSum = 0;
+            while (input != "Clone them!")
             {
-
-                int currElement = arr[i];
-                int currCount = 1;
+                int[] arr = input.Split('!', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+                count++;
+                int lenght = 1;
+                int endIndex = 0;
+                int sum = 0;
                 
-                if (currElement == 0)
+                foreach (var item in arr)
                 {
-                    continue;
+                    sum += item;
                 }
-                for (int currIndex = i + 1; currIndex < arr.Length; currIndex++)
+                for (int i = 1; i < n; i++)
                 {
-                    if (arr[currIndex] == 1)
-
+                    
+                    if (arr[i] == arr[i - 1] )
                     {
-                        currCount++;
+                        lenght++;
+                        endIndex = i ;
+                        {
+                            if (lenght > bestLenght)
+                            {
+                                bestLenght = lenght;
+                                bestStartIndex = endIndex-lenght;
+                                bestCount = count;
+                                bestArr = arr.ToArray();
+                                bestSum = sum;
+                            }
+                            else if (lenght == bestLenght)
+                            {
+                                if (endIndex-lenght < bestStartIndex)
+                                {
+                                    bestLenght = lenght;
+                                    bestStartIndex = endIndex - lenght;
+                                    bestCount = count;
+                                    bestArr = arr.ToArray();
+                                    bestSum = sum;
+                                }
+                                else if (endIndex - lenght == bestStartIndex)
+                                {
+                                    if (sum > bestSum)
+                                    {
+                                        bestLenght = lenght;
+                                        bestStartIndex = endIndex - lenght;
+                                        bestCount = count;
+                                        bestArr = arr.ToArray();
+                                        bestSum = sum;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        lenght = 1;
                     }
                 }
-
-                if (currCount > bestCount)
-                {
-                    bestCount = currCount;
-                }
-
+                input = Console.ReadLine();
             }
-
-
+            Console.WriteLine($"Best DNA sample {bestCount} with sum: {bestSum}.");
+            Console.WriteLine($"{string.Join(' ', bestArr)}");
 
 
         }
