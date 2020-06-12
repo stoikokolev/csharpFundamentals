@@ -117,6 +117,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharactersInRange", "Charac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswodValidator", "PasswodValidator\PasswodValidator.csproj", "{2C054A68-7720-4BBB-9177-CC2572F07102}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddAndSubtract", "AddAndSubtract\AddAndSubtract.csproj", "{836B70FC-C1A1-434F-AEC4-7AB78A05D77D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -335,6 +337,10 @@ Global
 		{2C054A68-7720-4BBB-9177-CC2572F07102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C054A68-7720-4BBB-9177-CC2572F07102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C054A68-7720-4BBB-9177-CC2572F07102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836B70FC-C1A1-434F-AEC4-7AB78A05D77D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836B70FC-C1A1-434F-AEC4-7AB78A05D77D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836B70FC-C1A1-434F-AEC4-7AB78A05D77D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836B70FC-C1A1-434F-AEC4-7AB78A05D77D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -393,6 +399,7 @@ Global
 		{60E81239-6FF1-4E95-85C6-1AE14FD4622B} = {245E74BD-27A3-4298-89E8-634AEA774A8E}
 		{85AE7BC6-2E02-46DE-AF4C-15A54FC15EC9} = {245E74BD-27A3-4298-89E8-634AEA774A8E}
 		{2C054A68-7720-4BBB-9177-CC2572F07102} = {245E74BD-27A3-4298-89E8-634AEA774A8E}
+		{836B70FC-C1A1-434F-AEC4-7AB78A05D77D} = {245E74BD-27A3-4298-89E8-634AEA774A8E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0164A842-2FF3-4B82-8E28-27FC10B1852E}

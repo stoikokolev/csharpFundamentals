@@ -1,0 +1,17 @@
+﻿5. Add and Subtract
+You will receive 3 integers. Write a method Sum to get the sum of the first two integers and Subtract method that subtracts the third integer from the result from the Sum method. 
+Examples
+Input
+Output
+23
+6
+10
+19
+1
+17
+30
+-12
+42 
+58
+100
+0
