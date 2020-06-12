@@ -1,0 +1,20 @@
+﻿7. NxN Matrix
+Write a method that receives a single integer N and prints NxN matrix with that number.
+Examples
+Input
+Output
+3
+3 3 3
+3 3 3
+3 3 3
+7
+7 7 7 7 7 7 7
+7 7 7 7 7 7 7
+7 7 7 7 7 7 7
+7 7 7 7 7 7 7
+7 7 7 7 7 7 7
+7 7 7 7 7 7 7
+7 7 7 7 7 7 7
+2
+2 2
+2 2
