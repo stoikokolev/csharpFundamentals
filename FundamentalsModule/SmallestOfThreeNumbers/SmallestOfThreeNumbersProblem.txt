@@ -1,0 +1,17 @@
+﻿1. Smallest of Three Numbers
+Write a method to print the smallest of three integer numbers. Use appropriate name for the method.
+Examples
+Input
+Output
+2
+5
+3
+2
+600
+342
+123
+123
+25
+21
+4
+4
