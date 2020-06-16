@@ -37,18 +37,109 @@ namespace ArrayManipulator
                 }
 
             }
-            Console.WriteLine($"[{string.Join(',',array)}]");
+            Console.WriteLine($"[{string.Join(", ", array)}]");
 
         }
 
         private static void ExecuteLast(string[] command, int[] array)
         {
-            throw new NotImplementedException();
+            if (int.Parse(command[1]) > array.Length)
+            {
+                Console.WriteLine("Invalid count");
+                return;
+            }
+            int[] arr = new int[int.Parse(command[1])];
+            int count = 0;
+            if (command[2] == "odd")
+            {
+                for (int i = array.Length - 1; i >= 0; i--)
+                {
+                    if (array[i] % 2 == 1)
+                    {
+                        arr[count] = array[i];
+                        count++;
+                    }
+
+                    if (count == int.Parse(command[1]))
+                    {
+                        break;
+                    }
+
+                }
+
+            }
+            else if (command[2] == "even")
+            {
+                for (int i = array.Length - 1; i >= 0; i--)
+                {
+                    if (array[i] % 2 == 0)
+                    {
+                        arr[count] = array[i];
+                        count++;
+                    }
+
+                    if (count == int.Parse(command[1]))
+                    {
+                        break;
+                    }
+
+                }
+
+            }
+
+            arr.Reverse();
+            Console.WriteLine($"[{string.Join(", ", arr.Where(x => x != 0))}]");
         }
 
         private static void ExecuteFirst(string[] command, int[] array)
         {
-            throw new NotImplementedException();
+            if (int.Parse(command[1]) > array.Length)
+            {
+                Console.WriteLine("Invalid count");
+                return;
+            }
+            int[] arr = new int[int.Parse(command[1])];
+            int count = 0;
+            if (command[2] == "odd")
+            {
+                for (int i = 0; i < array.Length; i++)
+                {
+                    if (array[i] % 2 == 1)
+                    {
+                        arr[count] = array[i];
+                        count++;
+                    }
+
+                    if (count == int.Parse(command[1]))
+                    {
+                        break;
+                    }
+
+                }
+
+            }
+            else if (command[2] == "even")
+            {
+                for (int i = 0; i < array.Length; i++)
+                {
+                    if (array[i] % 2 == 0)
+                    {
+                        arr[count] = array[i];
+                        count++;
+                    }
+
+                    if (count == int.Parse(command[1]))
+                    {
+                        break;
+                    }
+
+                }
+
+            }
+
+            arr.Reverse();
+            Console.WriteLine($"[{string.Join(", ", arr.Where(x => x != 0))}]");
+
         }
 
         private static void ExecuteMin(string[] command, int[] array)
@@ -157,27 +248,16 @@ namespace ArrayManipulator
             }
             else
             {
-                int[] temp = new int[index + 1];
-
-                for (int i = 0; i <= index; i++)// index =2
+                for (int i = 0; i <= int.Parse(command[1]); i++)
                 {
-                    temp[i] = array[i];
-                }
+                    int firstNum = array[0];
 
-                for (int i = 0; i <= index; i++)
-                {
-                    for (int k = 0; k < array.Length - 1; k++)
+                    for (int j = 0; j < array.Length - 1; j++)
                     {
-                        array[k] = array[k + 1];
+                        array[j] = array[j + 1];
                     }
-                }
 
-                int counter = 0;
-
-                for (int i = array.Length - 1 - index; i < array.Length; i++)
-                {
-                    array[i] = int.Parse(temp[counter].ToString());
-                    counter++;
+                    array[array.Length - 1] = firstNum;
                 }
 
             }
