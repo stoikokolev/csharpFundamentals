@@ -73,12 +73,13 @@ namespace SoftUniCoursePlanning
         {
             if (schedule.Contains(lesson))
             {
+                if (schedule.Contains($"{lesson}-Exercise"))
+                {
+                    schedule.Remove($"{lesson}-Exercise");
+                }
                 schedule.Remove(lesson);
             }
-            if (schedule.Contains($"{lesson}-Exercise"))
-            {
-                schedule.Remove($"{lesson}-Exercise");
-            }
+            
 
         }
 
@@ -86,11 +87,7 @@ namespace SoftUniCoursePlanning
         {
             if (!schedule.Contains(lesson))
             {
-                if (index >= schedule.Count)
-                {
-                    schedule.Add(lesson);
-                }
-                else
+                if(index>=0 && index<schedule.Count)
                 {
                     schedule.Insert(index, lesson);
                 }
