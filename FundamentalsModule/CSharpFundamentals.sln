@@ -147,6 +147,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberArray", "NumberArray\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactList", "ContactList\ContactList.csproj", "{9961AEFF-C807-401C-9797-F11E2F046ABF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FroggySquad", "FroggySquad\FroggySquad.csproj", "{CFE17D09-6C29-4CE6-8B15-3A390DAAB623}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -417,6 +419,10 @@ Global
 		{9961AEFF-C807-401C-9797-F11E2F046ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9961AEFF-C807-401C-9797-F11E2F046ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9961AEFF-C807-401C-9797-F11E2F046ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE17D09-6C29-4CE6-8B15-3A390DAAB623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE17D09-6C29-4CE6-8B15-3A390DAAB623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE17D09-6C29-4CE6-8B15-3A390DAAB623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE17D09-6C29-4CE6-8B15-3A390DAAB623}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -488,6 +494,7 @@ Global
 		{FE6E1372-7BE8-4FEC-AC2E-5B6257AF2D57} = {B001B487-398D-45D8-86B9-564B2F5691B5}
 		{6629852E-859D-4C40-9E55-BF012CC9E091} = {B001B487-398D-45D8-86B9-564B2F5691B5}
 		{9961AEFF-C807-401C-9797-F11E2F046ABF} = {B001B487-398D-45D8-86B9-564B2F5691B5}
+		{CFE17D09-6C29-4CE6-8B15-3A390DAAB623} = {B001B487-398D-45D8-86B9-564B2F5691B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0164A842-2FF3-4B82-8E28-27FC10B1852E}
