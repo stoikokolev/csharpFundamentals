@@ -187,6 +187,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCipher", "CaesarCiphe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceRepeatingChars", "ReplaceRepeatingChars\ReplaceRepeatingChars.csproj", "{0D361077-2803-4AA3-B50D-775E07E56387}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplyBigNumber", "MultiplyBigNumber\MultiplyBigNumber.csproj", "{89A15C96-462D-4F02-8117-BCB9D11E360F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExplosion", "StringExplosion\StringExplosion.csproj", "{3C1E1576-C60D-4759-8653-D8EE1500EB94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -529,6 +533,14 @@ Global
 		{0D361077-2803-4AA3-B50D-775E07E56387}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D361077-2803-4AA3-B50D-775E07E56387}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D361077-2803-4AA3-B50D-775E07E56387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A15C96-462D-4F02-8117-BCB9D11E360F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A15C96-462D-4F02-8117-BCB9D11E360F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A15C96-462D-4F02-8117-BCB9D11E360F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A15C96-462D-4F02-8117-BCB9D11E360F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C1E1576-C60D-4759-8653-D8EE1500EB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C1E1576-C60D-4759-8653-D8EE1500EB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C1E1576-C60D-4759-8653-D8EE1500EB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C1E1576-C60D-4759-8653-D8EE1500EB94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -618,6 +630,8 @@ Global
 		{4A313B2D-1B3C-4770-89B8-54B20CD91F2D} = {ACAB328D-28D5-481D-9C7B-11A6886EEBEC}
 		{ED1C4A68-15BB-4476-BA9B-33F6C27AD355} = {ACAB328D-28D5-481D-9C7B-11A6886EEBEC}
 		{0D361077-2803-4AA3-B50D-775E07E56387} = {ACAB328D-28D5-481D-9C7B-11A6886EEBEC}
+		{89A15C96-462D-4F02-8117-BCB9D11E360F} = {ACAB328D-28D5-481D-9C7B-11A6886EEBEC}
+		{3C1E1576-C60D-4759-8653-D8EE1500EB94} = {ACAB328D-28D5-481D-9C7B-11A6886EEBEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0164A842-2FF3-4B82-8E28-27FC10B1852E}
