@@ -43,7 +43,7 @@ namespace Race
                 input = Console.ReadLine();
             }
             int count = 1;
-            foreach (var item in dict.OrderByDescending(x => x.Value).Take(3))
+            foreach (var item in dict.OrderByDescending(x => x.Value).Take(3)) 
             {
                 if (count == 1)
                 {
