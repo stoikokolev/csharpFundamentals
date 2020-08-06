@@ -223,6 +223,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnTheWayToAnnapurna", "OnTh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pirates", "Pirates\Pirates.csproj", "{F3C0B434-A156-4B67-9E00-05FC1D5EA5B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroesOfCodeAndLogicVII", "HeroesOfCodeAndLogicVII\HeroesOfCodeAndLogicVII.csproj", "{0DC9C0FD-EEAF-4158-95C4-F4DAA561F405}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -629,6 +631,10 @@ Global
 		{F3C0B434-A156-4B67-9E00-05FC1D5EA5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3C0B434-A156-4B67-9E00-05FC1D5EA5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3C0B434-A156-4B67-9E00-05FC1D5EA5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC9C0FD-EEAF-4158-95C4-F4DAA561F405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC9C0FD-EEAF-4158-95C4-F4DAA561F405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC9C0FD-EEAF-4158-95C4-F4DAA561F405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC9C0FD-EEAF-4158-95C4-F4DAA561F405}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -734,6 +740,7 @@ Global
 		{03651103-8A90-47A5-8180-B8DCD1319DF7} = {529EAB06-84D9-46B3-A428-BB5C75E5C79E}
 		{F066E59E-30E5-495D-918D-9CEF30192675} = {529EAB06-84D9-46B3-A428-BB5C75E5C79E}
 		{F3C0B434-A156-4B67-9E00-05FC1D5EA5B2} = {529EAB06-84D9-46B3-A428-BB5C75E5C79E}
+		{0DC9C0FD-EEAF-4158-95C4-F4DAA561F405} = {529EAB06-84D9-46B3-A428-BB5C75E5C79E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0164A842-2FF3-4B82-8E28-27FC10B1852E}
