@@ -18,7 +18,7 @@ namespace MessageDecrypter
                 {
                     string text = match.Groups["tag"].Value + ": "
                         + (char)(int.Parse(match.Groups["first"].Value))
-                        + (char)(int.Parse(match.Groups["second"].Value)) 
+                        + (char)(int.Parse(match.Groups["second"].Value))
                         + (char)(int.Parse(match.Groups["third"].Value));
                     Console.WriteLine(text);
                 }
