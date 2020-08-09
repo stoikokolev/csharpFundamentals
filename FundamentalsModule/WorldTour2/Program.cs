@@ -81,7 +81,7 @@ namespace WorldTour2
 
 
             }
-
+            
             foreach (var item in plants)
             {
                 if (item.Value.Rating.Count==0)
